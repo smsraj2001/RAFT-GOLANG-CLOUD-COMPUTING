@@ -71,7 +71,7 @@ go test -v -race -run Test2 > verbose/2.log
 The above command executes a couple of scenarios for your code. Read through the logs generated in the verbose directory for **Test1** , and make sure to have all 5 files open in NodeLogs and watch them update in real time for **Test2** (like this:)
 
 <p align="center">
-  <img src="images/test2.png" />
+  <img src="https://github.com/smsraj2001/CC-Project-1/blob/Project-1/images/test2.png" />
 </p>
 
 You could also instead tail -f the files with tmux, like you did for Experiment 4.
@@ -79,12 +79,14 @@ You could also instead tail -f the files with tmux, like you did for Experiment 
 For evaluation, you will need to walk through the output you got from the Tests 1 and 2 and explain why it's expected behaviour. You will also need to then execute test-cases given to you later and do the same. **(Test 3 given to you will fail by default; it's your job to explain why and how to fix it.) (refer to the last paragraph of 'how you should start')**
 
 
-## **For queries, contact:**
+## **Collaboratoring Team for the Project :**
 
-[**S M Sutharsan Raj**](mailto:sutharsanraj2001@gmail.com)
+[**Rahul Roshan G**](mailto:rahulroshanganesh2002@gmail.com)
 
 [**Rohan C**](mailto:chandrashekar.rohans@gmail.com)
 
 [**Rohit Roshan**](mailto:rohitroshan2002@gmail.com)
 
-[**Rahul Roshan G**](mailto:rahulroshanganesh2002@gmail.com)
+[**S M Sutharsan Raj**](mailto:sutharsanraj2001@gmail.com)
+
+
