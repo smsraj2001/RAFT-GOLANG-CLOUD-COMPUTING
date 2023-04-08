@@ -81,4 +81,6 @@ For evaluation, you will need to walk through the output you got from the Tests 
 
 ## **For queries, contact:**
 
-**RR Campus:** [**tacloudcomputing@gmail.com**](mailto:tacloudcomputing@gmail.com)
+**RR Campus:** [**tacloudcomputing@gmail.com**](mailto:sutharsanraj2001@gmail.com)
+**RR Campus:** [**tacloudcomputing@gmail.com**](mailto:chandrashekar.rohans@gmail.com)
+**RR Campus:** [**tacloudcomputing@gmail.com**](mailto:rohitroshan2002@gmail.com)
