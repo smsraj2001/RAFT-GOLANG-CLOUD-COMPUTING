@@ -71,7 +71,7 @@ go test -v -race -run Test2 > verbose/2.log
 The above command executes a couple of scenarios for your code. Read through the logs generated in the verbose directory for **Test1** , and make sure to have all 5 files open in NodeLogs and watch them update in real time for **Test2** (like this:)
 
 <p align="center">
-  <img src="images/test2_result_obtained.png" />
+  <img src="/images/test2.png" />
 </p>
 
 
