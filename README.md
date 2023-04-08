@@ -71,8 +71,9 @@ go test -v -race -run Test2 > verbose/2.log
 The above command executes a couple of scenarios for your code. Read through the logs generated in the verbose directory for **Test1** , and make sure to have all 5 files open in NodeLogs and watch them update in real time for **Test2** (like this:)
 
 <p align="center">
-  <img src="https://github.com/smsraj2001/CC-Project-1/blob/Project-1/images/test2.png" />
+  <img src="images/test2_result_obtained.png" />
 </p>
+
 
 You could also instead tail -f the files with tmux, like you did for Experiment 4.
 
