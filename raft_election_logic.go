@@ -1,6 +1,7 @@
 package raft
 
 import (
+	// "fmt"
 	"math/rand"
 	"time"
 )
@@ -105,13 +106,18 @@ func (this *RaftNode) startElection() {
 				if reply.Term > this.currentTerm { //TODO
 					this.currentTerm = reply.Term
 					this.becomeFollower(reply.Term)
-				} else if reply.Term == this.currentTerm { //TODO
+				} else if reply.Term == termWhenVoteRequested { //TODO
 					if reply.VoteGranted {
 						votesReceived += 1
-						this.state = "Leader"
-						this.write_log("became Leader with term=%d; log=%v", this.currentTerm, this.log)
-						this.startLeader()
-						return
+						// this.state = "Leader"
+						this.write_log("received a positive vote from %d (total: %d)", peerId, votesReceived)
+						if votesReceived >= len(this.peersIds)/2 {
+							// fmt.Println(votesReceived)
+							// fmt.Println(len(this.peersIds)/2)
+							this.write_log("got majority votes: %d; became Leader", votesReceived)
+							this.startLeader()
+							return
+						}
 					}
 				}
 				//-------------------------------------------------------------------------------------------/
